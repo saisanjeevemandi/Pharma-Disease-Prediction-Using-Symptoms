@@ -27,6 +27,7 @@ Symptom → severity weight
 
 
 🧠 Approach & Logic (Step-by-Step)
+
 1️⃣ Understanding the Raw Data
 Each patient can have up to 17 symptoms
 Symptoms are categorical text values
