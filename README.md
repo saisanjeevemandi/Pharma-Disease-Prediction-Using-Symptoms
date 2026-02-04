@@ -1,6 +1,6 @@
 # 🏥 Disease Prediction Using Patient Symptoms (End-to-End Data Science Project)
 
-**🔍 Problem Statement**
+## 🔍 Problem Statement
 
 Healthcare diagnosis often depends on identifying patterns between symptoms and diseases.
 The goal of this project is to predict the most likely disease for a patient based on reported symptoms and provide:
@@ -35,7 +35,7 @@ symptom_severity.csv
 
 Symptom → severity weight
 
-**🧠 Approach & Logic (Step-by-Step)**
+## 🧠 Approach & Logic (Step-by-Step)
 **1️⃣ Understanding the Raw Data**
 
 Each patient can have up to 17 symptoms
@@ -92,7 +92,7 @@ Avoids blind modeling
 
 Helps justify feature choices
 
-**🤖 Machine Learning Models Implemented**
+## 🤖 Machine Learning Models Implemented
 
 We tested 4 classification models:
 
@@ -103,7 +103,7 @@ Random Forest	Ensemble robustness
 Gradient Boosting	Final optimized model
 
 
-**📈 Model Comparison Results**
+## 📈 Model Comparison Results
 Model	Accuracy	Weighted F1
 Logistic Regression	1.00	1.00
 Decision Tree	0.23	0.22
@@ -119,7 +119,7 @@ Gradient Boosting showed realistic generalization
 **📌 Final Model Selected:**
 ✅ Gradient Boosting Classifier
 
-**🧪 Prediction Demo (New Patient)**
+## 🧪 Prediction Demo (New Patient)
 Input
 
 Patient symptoms entered manually
@@ -142,7 +142,7 @@ Top 3 Predictions:
 - $Disease_3 → $XX%
 
 
-**📌 Why confidence matters**
+## 📌 Why confidence matters
 
 Helps doctors trust predictions
 
@@ -150,7 +150,7 @@ Low confidence → further tests needed
 
 High confidence → strong recommendation
 
-**🩺 Post-Prediction Business Value**
+## 🩺 Post-Prediction Business Value
 
 After prediction:
 
@@ -160,7 +160,7 @@ Recommended precautions are displayed
 
 Enables end-to-end decision support
 
-**🧠 Key Learnings**
+## 🧠 Key Learnings
 
 How to convert medical text data into ML features
 
@@ -172,7 +172,7 @@ Building explainable healthcare ML systems
 
 Thinking beyond models → real-world usage
 
-**🛠️ Tech Stack**
+## 🛠️ Tech Stack
 
 Python
 
@@ -184,7 +184,7 @@ Gradient Boosting
 
 Git & GitHub
 
-**📂 Repository Structure**
+## 📂 Repository Structure
 ├── data/
 │   ├── dataset.xlsx
 │   ├── symptom_Description.csv
