@@ -184,14 +184,4 @@ Gradient Boosting
 
 Git & GitHub
 
-## 📂 Repository Structure
-├── data/
-│   ├── dataset.xlsx
-│   ├── symptom_Description.csv
-│   ├── symptom_precaution.csv
-│   └── symptom_severity.csv
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── Feature_Engineering.ipynb
-│   └── Modeling.ipynb
-├── README.md
+
