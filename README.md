@@ -13,7 +13,7 @@ Suggested precautions
 
 This simulates a real clinical decision-support system.
 
-**📊 Datasets Used**
+## 📊 Datasets Used
 
 We used real-world structured healthcare datasets:
 
